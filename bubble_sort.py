@@ -30,5 +30,5 @@ for i in range(len(unsorted_list)):
             unsorted_list[i] = unsorted_list[i] ^ unsorted_list[j]
 end = t.time()
 
-print(unsorted_list)
+# print(unsorted_list)
 print(end - start)
